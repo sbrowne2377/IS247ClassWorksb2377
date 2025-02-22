@@ -5,8 +5,8 @@ public class ReadFromFile {
     public static void main(String[] args) {
         try {
             // Step 1: Create a FileReader (like opening a notebook)
-            FileReader reader = new FileReader("myFile.txt");
-
+            FileReader reader = new FileReader("/workspaces/IS247ClassWork/myFile.txt");
+           
             // Step 2: Read each character from the file
             int data;
             while ((data = reader.read()) != -1) { // Read until the end of the file
